@@ -1,0 +1,63 @@
+.room-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 60px);
+  position: relative;
+}
+
+.room-header {
+  background-color: #1f2937;
+  color: white;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.video-container {
+  flex: 1;
+  background-color: #111827;
+}
+
+.exit-button {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  z-index: 10;
+  transition: background-color 0.3s;
+}
+
+.exit-button:hover {
+  background-color: #dc2626;
+}
+
+.hand-raise-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.hand-raise-button.active {
+  background-color: #ffcc00;
+  color: black;
+}
+
+.hand-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+}
