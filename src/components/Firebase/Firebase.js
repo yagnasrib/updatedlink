@@ -2,7 +2,8 @@ import { initializeApp } from "firebase/app"
 import { getAuth, GoogleAuthProvider, signInWithPopup, signOut } from "firebase/auth"
 import axios from "axios"
 
-const API_URL = "http://localhost:5000/api"
+// const API_URL = "http://localhost:5000/api"
+const API_URL = "https://updatedbackendlink-1.onrender.com/api"
 
 const firebaseConfig = {
   apiKey: "AIzaSyDwFEYC-XWGFX5KZabcIoTUjIbyFhg9Mc8",
